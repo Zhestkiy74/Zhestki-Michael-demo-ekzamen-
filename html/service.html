@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/service.css">
+    <title>Выбор услуг</title>
+</head>
+<body>
+    <header>
+        <ul class="nav-menu_items">
+            <li class="nav-menu_item"></li>
+        </ul>
+        <ul class="personal-menu_items">
+            <span id="username" class="personal-menu_item"></span>
+            <li class="personal-menu_item"><button class="exit-btn" onclick="logout()">Выход</button></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Выбор услуг</h1>
+        <div class="services">
+            <div class="service">
+                <h2>Поклейка обоев</h2>
+                <p>Поклеим обои максимально быстро и дешево</p>
+                <button class="request-btn" onclick="saveService('Поклейка обоев')">Запросить услугу</button>
+            </div>
+            <div class="service">
+                <h2>Установка фурнитуры</h2>
+                <p>Установим фурнитуру и доставим ее вовремя</p>
+                <button class="request-btn" onclick="saveService('Установка фурнитуры')">Запросить услугу</button>
+            </div>
+            <div class="service">
+                <h2>Покрытие полов</h2>
+                <p>Покроем полы и сделаем все ровно и быстро</p>
+                <button class="request-btn" onclick="saveService('Покрытие полов')">Запросить услугу</button>
+            </div>
+        </div>
+    </main>
+    <script src="/js/service.js"></script>   
+</body>
+</html>

@@ -1,0 +1,21 @@
+админ
+Логин: admin
+Пароль: admin
+
+Пользователь
+
+
+login:
+poltest
+
+password:
+123456789pol
+
+fullname:
+Жёсткий Михаил Михайлович
+
+Телефон:
+8 908 777 32 12
+
+Email:
+email.test@mail.ru

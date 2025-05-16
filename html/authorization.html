@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="/css/authorization.css">
+</head>
+<body> 
+    <section class="authorization-form">
+            <div class="auth-card">
+                <form id="loginForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="login" class="form-label">Логин</label>
+                        <div class="input-wrapper">
+                            <input type="text" id="login" name="login" class="form-input" required>
+                            <div class="error-message" id="login-error"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="form-label">Пароль</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-lock input-icon"></i>
+                            <input type="password" id="password" name="password" class="form-input" required>
+                            <div class="error-message" id="password-error"></div>
+                        </div>
+                    </div>
+                    <button type="button" onclick="redirectAfterDelay()" class="btn btn-primary btn-login">войти</button>
+
+                    <div class="form-footer">
+                        <p>Нет аккаунта? <a href="index.html" class="register-link">Зарегистрируйтесь</a></p>
+                    </div>
+                </form>
+            </div>
+    </section>
+    <script src="/js/authorization.js"></script> 
+</body>
+</html>
